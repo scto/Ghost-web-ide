@@ -88,7 +88,7 @@ dependencies {
     implementation 'io.github.beyka:Android-TiffBitmapFactory:0.9.9.1'
     implementation 'xyz.doikki.android.dkplayer:dkplayer-java:3.3.1'
     implementation 'xyz.doikki.android.dkplayer:dkplayer-ui:3.3.1'
-    implementation 'xyz.doikki.android.dkplayer:player-exo:3.3.1'
+    implementation 'xyz.doikki.android.dkplayer:player-exo:3.3.7'
     implementation 'xyz.doikki.android.dkplayer:player-ijk:3.3.1'
     implementation 'xyz.doikki.android.dkplayer:videocache:3.3.1'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.12'
@@ -96,12 +96,12 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.4.0-alpha01")
     implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'org.antlr:antlr4:4.13.0'
+    implementation 'org.antlr:antlr4:4.13.1'
     implementation 'org.apache.commons:commons-compress:1.24.0'
     implementation("com.github.pedrovgs:renderers:4.1.0")
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'com.fasterxml.jackson.core:jackson-core:2.13.1'
-    implementation 'com.squareup:seismic:1.0.2'
+    implementation 'com.squareup:seismic:1.0.3'
     implementation "org.smali:smali:2.5.2"
     implementation "org.smali:baksmali:2.5.2"
     implementation ("io.apisense:rhino-android:1.0")
