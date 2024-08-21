@@ -4,7 +4,6 @@ pluginManagement {
     google()
     mavenCentral()
     jcenter()
-    
   }
 }
 
@@ -14,15 +13,15 @@ dependencyResolutionManagement {
     google()
     mavenCentral()
     maven { url 'https://jitpack.io' }
-    jcenter()
     maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+    jcenter()
   }
 }
 
 rootProject.name = "GhostWeb IDE"
 
 include(":app")
-include 'eclipse-standalone'
+include(":eclipse-standalone")
 include(":android-tools")
 include(":Plugin")
 include(":pl-codecomment")	
