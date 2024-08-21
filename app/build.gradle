@@ -3,6 +3,12 @@ plugins {
     id "kotlin-android"
 }
 
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+
 android {
     namespace "Ninja.coder.Ghostemane.code"
     compileSdk 34
